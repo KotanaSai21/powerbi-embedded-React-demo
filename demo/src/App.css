@@ -1,0 +1,61 @@
+.report-container {
+	height: 80vh;
+	margin: 8px auto;
+	width: 90%;
+}
+
+body {
+	font-family: 'Segoe UI';
+	margin: 0;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.display-message {
+	align-items: center;
+	display: flex;
+	font: 400 18px/27px 'Segoe UI';
+	height: 30px;
+	justify-content: center;
+	margin-top: 8px;
+	text-align: center;
+}
+
+.position {
+	margin-top: 40vh;
+}
+
+.embed-report {
+	margin-top: 18px;
+	text-align: center;
+	margin-right: 0;
+}
+
+.controls {
+	margin-top: 20px;
+	text-align: center;
+	flex: 1;
+}
+
+button {
+	background: #337ab7;
+	border: 0;
+	border-radius: 5px;
+	color: #ffffff;
+	font-size: 16px;
+	height: 35px;
+	margin-right: 15px;
+	width: 160px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+iframe {
+	border: none;
+}
