@@ -14,11 +14,13 @@ After the function created, Go to Code + Test and paste the code from [GenerateT
 
 Enter the details and Click on Test/Run. You will get HTTP response with EmbedToken, Embed URL.
 
+Click on the Get function URL and copy the function URL
+
 ## Demo App
 
 Embeded the Report using [powerbi-client-react-npm](https://www.npmjs.com/package/powerbi-client-react) library and the sample code from [powerbi-client-react-github](https://github.com/microsoft/powerbi-client-react)
 
-Click on the Get function URL and copy the function URL. Paste the URL in [App.tsx](/demo/src/App.tsx)
+Paste the Function URL in [App.tsx](/demo/src/App.tsx)
 
 Install the Dependencies
 
